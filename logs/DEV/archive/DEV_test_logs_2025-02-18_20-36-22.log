@@ -1,0 +1,20 @@
+2025-02-18 20:36:22,338 :INFO : TestLogger :🚀 Logger initialized for environment: DEV
+2025-02-18 20:36:22,338 :INFO : TestLogger :📂 Log file: Logs\DEV\DEV_test_logs_2025-02-18_20-36-22.log
+2025-02-18 20:36:22,429 :INFO : TestLogger :📂 Archiving old screenshots before test execution...
+2025-02-18 20:36:22,430 :INFO : TestLogger :📂 Archived old screenshot: DEV_back_to_login_screen_2025-02-18_20-33-17.png
+2025-02-18 20:36:22,430 :INFO : TestLogger :📂 Archived old screenshot: DEV_boost_login_page_2025-02-18_20-31-26.png
+2025-02-18 20:36:22,431 :INFO : TestLogger :📂 Archived old screenshot: DEV_empty_email_password_2025-02-18_20-31-57.png
+2025-02-18 20:36:22,454 :INFO : TestLogger :📂 Archived old screenshot: DEV_empty_email_valid_password_2025-02-18_20-32-22.png
+2025-02-18 20:36:22,455 :INFO : TestLogger :📂 Archived old screenshot: DEV_forgot_password_page_2025-02-18_20-33-09.png
+2025-02-18 20:36:22,455 :INFO : TestLogger :📂 Archived old screenshot: DEV_invalid_email_login_2025-02-18_20-31-50.png
+2025-02-18 20:36:22,456 :INFO : TestLogger :📂 Archived old screenshot: DEV_special_characters_in_email_2025-02-18_20-33-02.png
+2025-02-18 20:36:22,458 :INFO : TestLogger :📂 Archived old screenshot: DEV_valid_email_empty_password_2025-02-18_20-32-13.png
+2025-02-18 20:36:22,458 :INFO : TestLogger :📂 Archived old screenshot: DEV_valid_email_invalid_password_2025-02-18_20-32-06.png
+2025-02-18 20:36:22,459 :INFO : TestLogger :📂 Archived old screenshot: DEV_valid_login_2025-02-18_20-31-40.png
+2025-02-18 20:36:22,459 :INFO : TestLogger :Launching browser: chrome | Headless mode: True
+2025-02-18 20:36:24,090 :INFO : TestLogger :Browser session started.
+2025-02-18 20:36:24,090 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:36:24,091 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:36:27,030 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:36:28,435 :INFO : TestLogger :Entering password.
+2025-02-18 20:36:28,756 :INFO : TestLogger :Clicking the login button.

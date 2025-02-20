@@ -1,0 +1,285 @@
+2025-02-18 20:27:09,661 :INFO : TestLogger :🚀 Logger initialized for environment: DEV
+2025-02-18 20:27:09,661 :INFO : TestLogger :📂 Log file: Logs\DEV\DEV_test_logs_2025-02-18_20-27-09.log
+2025-02-18 20:27:09,916 :INFO : TestLogger :📂 Archiving old screenshots before test execution...
+2025-02-18 20:27:09,917 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:27:13,592 :INFO : TestLogger :Browser session started.
+2025-02-18 20:27:13,593 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:27:13,593 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:27:15,824 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:27:17,711 :INFO : TestLogger :Entering password.
+2025-02-18 20:27:17,924 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:27:26,612 :INFO : TestLogger :📌 Verifying Dynamic Boost Status heading visibility.
+2025-02-18 20:27:26,840 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_status_heading_2025-02-18_20-27-26.png
+2025-02-18 20:27:29,099 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:27:29,103 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:27:30,776 :INFO : TestLogger :Browser session started.
+2025-02-18 20:27:30,776 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:27:30,776 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:27:33,112 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:27:34,600 :INFO : TestLogger :Entering password.
+2025-02-18 20:27:34,810 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:27:42,784 :INFO : TestLogger :📌 Verifying Last Updated Timestamp visibility.
+2025-02-18 20:27:43,282 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_last_updated_2025-02-18_20-27-42.png
+2025-02-18 20:27:45,457 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:27:45,458 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:27:47,074 :INFO : TestLogger :Browser session started.
+2025-02-18 20:27:47,074 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:27:47,075 :INFO : TestLogger :Testing login with an invalid email and valid password.
+2025-02-18 20:27:48,855 :INFO : TestLogger :Entering email: svibin@boost.com
+2025-02-18 20:27:50,223 :INFO : TestLogger :Entering password.
+2025-02-18 20:27:50,523 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:27:52,389 :INFO : TestLogger :Checking for error message after login attempt.
+2025-02-18 20:27:52,426 :WARNING : TestLogger :Login failed. Error message: You’ve entered an invalid email / password combination, or your account is locked due to too many login attempts.
+2025-02-18 20:27:52,844 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_invalid_email_login_2025-02-18_20-27-52.png
+2025-02-18 20:27:52,844 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_invalid_email_login_2025-02-18_20-27-52.png
+2025-02-18 20:27:55,050 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:27:55,051 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:27:56,649 :INFO : TestLogger :Browser session started.
+2025-02-18 20:27:56,649 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:27:56,649 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:27:58,373 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:27:59,782 :INFO : TestLogger :Entering password.
+2025-02-18 20:28:00,036 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:28:05,953 :INFO : TestLogger :📌 Verifying Profile Icon visibility.
+2025-02-18 20:28:06,187 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_profile_icon_2025-02-18_20-28-06.png
+2025-02-18 20:28:08,376 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:28:08,376 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:28:09,999 :INFO : TestLogger :Browser session started.
+2025-02-18 20:28:09,999 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:28:09,999 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:28:12,255 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:28:13,669 :INFO : TestLogger :Entering password.
+2025-02-18 20:28:13,905 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:28:19,998 :INFO : TestLogger :📌 Verifying Status Menu visibility and clickability.
+2025-02-18 20:28:20,262 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_status_menu_2025-02-18_20-28-20.png
+2025-02-18 20:28:22,458 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:28:22,458 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:28:40,278 :INFO : TestLogger :Browser session started.
+2025-02-18 20:28:40,279 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:28:40,279 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:28:42,171 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:28:43,555 :INFO : TestLogger :Entering password.
+2025-02-18 20:28:43,793 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:28:49,780 :INFO : TestLogger :📌 Verifying Sources Menu visibility and clickability.
+2025-02-18 20:28:50,026 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_sources_menu_2025-02-18_20-28-49.png
+2025-02-18 20:28:52,289 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:28:52,291 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:28:53,801 :INFO : TestLogger :Browser session started.
+2025-02-18 20:28:53,801 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:28:53,801 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:28:55,576 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:28:56,964 :INFO : TestLogger :Entering password.
+2025-02-18 20:28:57,206 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:29:03,191 :INFO : TestLogger :📌 Verifying Payments Menu visibility and clickability.
+2025-02-18 20:29:03,440 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_payments_menu_2025-02-18_20-29-03.png
+2025-02-18 20:29:05,705 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:29:05,705 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:29:07,275 :INFO : TestLogger :Browser session started.
+2025-02-18 20:29:07,275 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:29:07,275 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:29:08,903 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:29:10,289 :INFO : TestLogger :Entering password.
+2025-02-18 20:29:10,521 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:29:16,014 :INFO : TestLogger :📌 Verifying Invoices Menu visibility and clickability.
+2025-02-18 20:29:16,262 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_invoices_menu_2025-02-18_20-29-16.png
+2025-02-18 20:29:18,430 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:29:18,430 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:29:20,033 :INFO : TestLogger :Browser session started.
+2025-02-18 20:29:20,033 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:29:20,033 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:29:21,852 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:29:23,234 :INFO : TestLogger :Entering password.
+2025-02-18 20:29:23,468 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:29:29,183 :INFO : TestLogger :📌 Verifying Gateways Dropdown visibility.
+2025-02-18 20:29:29,433 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_gateways_dropdown_2025-02-18_20-29-29.png
+2025-02-18 20:29:31,707 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:29:31,707 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:29:33,242 :INFO : TestLogger :Browser session started.
+2025-02-18 20:29:33,242 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:29:33,242 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:29:35,389 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:29:36,787 :INFO : TestLogger :Entering password.
+2025-02-18 20:29:37,025 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:29:42,806 :INFO : TestLogger :📌 Verifying Exceptions Badge visibility.
+2025-02-18 20:29:43,004 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_exceptions_badge_2025-02-18_20-29-42.png
+2025-02-18 20:29:45,219 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:29:45,219 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:29:46,699 :INFO : TestLogger :Browser session started.
+2025-02-18 20:29:46,699 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:29:46,699 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:29:49,613 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:29:51,000 :INFO : TestLogger :Entering password.
+2025-02-18 20:29:51,251 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:29:57,010 :INFO : TestLogger :📌 Verifying Source Documents Received section visibility.
+2025-02-18 20:29:57,267 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_source_documents_2025-02-18_20-29-57.png
+2025-02-18 20:29:59,527 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:29:59,527 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:30:01,174 :INFO : TestLogger :Browser session started.
+2025-02-18 20:30:01,174 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:30:01,174 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:30:03,036 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:30:04,439 :INFO : TestLogger :Entering password.
+2025-02-18 20:30:04,672 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:30:10,265 :INFO : TestLogger :📌 Verifying Emails Section visibility.
+2025-02-18 20:30:10,501 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_emails_section_2025-02-18_20-30-10.png
+2025-02-18 20:30:12,780 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:30:12,780 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:30:14,357 :INFO : TestLogger :Browser session started.
+2025-02-18 20:30:14,357 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:30:14,357 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:30:16,723 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:30:18,093 :INFO : TestLogger :Entering password.
+2025-02-18 20:30:18,312 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:30:24,149 :INFO : TestLogger :📌 Verifying Payments by Status section visibility.
+2025-02-18 20:30:24,369 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_payments_status_2025-02-18_20-30-24.png
+2025-02-18 20:30:26,556 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:30:26,556 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:30:28,115 :INFO : TestLogger :Browser session started.
+2025-02-18 20:30:28,115 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:30:28,115 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:30:29,865 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:30:31,271 :INFO : TestLogger :Entering password.
+2025-02-18 20:31:00,049 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:31:05,814 :INFO : TestLogger :📌 Verifying Gateways Section visibility.
+2025-02-18 20:31:06,050 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_gateways_section_2025-02-18_20-31-05.png
+2025-02-18 20:31:08,266 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:31:08,269 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:31:09,863 :INFO : TestLogger :Browser session started.
+2025-02-18 20:31:09,863 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:31:09,863 :INFO : TestLogger :🔐 Logging into the application and navigating to the Dashboard.
+2025-02-18 20:31:12,106 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:31:13,482 :INFO : TestLogger :Entering password.
+2025-02-18 20:31:13,730 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:31:19,533 :INFO : TestLogger :📌 Verifying Payments by Source section visibility.
+2025-02-18 20:31:19,781 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_dashboard_payments_by_source_2025-02-18_20-31-19.png
+2025-02-18 20:31:21,970 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:31:21,970 :INFO : TestLogger :📂 Archiving old screenshots before test execution...
+2025-02-18 20:31:21,970 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_emails_section_2025-02-18_20-30-10.png
+2025-02-18 20:31:21,970 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_exceptions_badge_2025-02-18_20-29-42.png
+2025-02-18 20:31:22,017 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_gateways_dropdown_2025-02-18_20-29-29.png
+2025-02-18 20:31:22,017 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_gateways_section_2025-02-18_20-31-05.png
+2025-02-18 20:31:22,017 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_invoices_menu_2025-02-18_20-29-16.png
+2025-02-18 20:31:22,017 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_last_updated_2025-02-18_20-27-42.png
+2025-02-18 20:31:22,017 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_payments_by_source_2025-02-18_20-31-19.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_payments_menu_2025-02-18_20-29-03.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_payments_status_2025-02-18_20-30-24.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_profile_icon_2025-02-18_20-28-06.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_sources_menu_2025-02-18_20-28-49.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_source_documents_2025-02-18_20-29-57.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_status_heading_2025-02-18_20-27-26.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_dashboard_status_menu_2025-02-18_20-28-20.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :📂 Archived old screenshot: DEV_invalid_email_login_2025-02-18_20-27-52.png
+2025-02-18 20:31:22,033 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:31:23,690 :INFO : TestLogger :Browser session started.
+2025-02-18 20:31:23,690 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:31:23,690 :INFO : TestLogger :Testing Boost Gen 3 login page display.
+2025-02-18 20:31:25,529 :INFO : TestLogger :Checking if email field is visible.
+2025-02-18 20:31:26,653 :INFO : TestLogger :Email field is visible on the login page.
+2025-02-18 20:31:26,791 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_boost_login_page_2025-02-18_20-31-26.png
+2025-02-18 20:31:26,791 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_boost_login_page_2025-02-18_20-31-26.png
+2025-02-18 20:31:28,963 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:31:28,963 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:31:30,586 :INFO : TestLogger :Browser session started.
+2025-02-18 20:31:30,586 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:31:30,586 :INFO : TestLogger :Testing valid login.
+2025-02-18 20:31:32,572 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:31:33,981 :INFO : TestLogger :Entering password.
+2025-02-18 20:31:34,221 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:31:34,546 :INFO : TestLogger :Checking if the user is redirected to the dashboard.
+2025-02-18 20:31:40,130 :INFO : TestLogger :User is successfully redirected to the dashboard.
+2025-02-18 20:31:40,305 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_valid_login_2025-02-18_20-31-40.png
+2025-02-18 20:31:40,305 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_valid_login_2025-02-18_20-31-40.png
+2025-02-18 20:31:42,548 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:31:42,548 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:31:44,121 :INFO : TestLogger :Browser session started.
+2025-02-18 20:31:44,121 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:31:44,121 :INFO : TestLogger :Testing login with an invalid email and valid password.
+2025-02-18 20:31:46,568 :INFO : TestLogger :Entering email: svibin@boost.com
+2025-02-18 20:31:47,959 :INFO : TestLogger :Entering password.
+2025-02-18 20:31:48,200 :INFO : TestLogger :Clicking the login button.
+2025-02-18 20:31:48,472 :INFO : TestLogger :Checking for error message after login attempt.
+2025-02-18 20:31:50,040 :WARNING : TestLogger :Login failed. Error message: You’ve entered an invalid email / password combination, or your account is locked due to too many login attempts.
+2025-02-18 20:31:50,453 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_invalid_email_login_2025-02-18_20-31-50.png
+2025-02-18 20:31:50,453 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_invalid_email_login_2025-02-18_20-31-50.png
+2025-02-18 20:31:52,642 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:31:52,642 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:31:54,270 :INFO : TestLogger :Browser session started.
+2025-02-18 20:31:54,270 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:31:54,270 :INFO : TestLogger :Testing login with empty email and password.
+2025-02-18 20:31:56,058 :INFO : TestLogger :Entering email: 
+2025-02-18 20:31:57,259 :INFO : TestLogger :Entering password.
+2025-02-18 20:31:57,381 :INFO : TestLogger :Checking if the 'SIGN IN' button is enabled.
+2025-02-18 20:31:57,417 :INFO : TestLogger :SIGN IN button is correctly disabled.
+2025-02-18 20:31:57,768 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_empty_email_password_2025-02-18_20-31-57.png
+2025-02-18 20:31:57,768 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_empty_email_password_2025-02-18_20-31-57.png
+2025-02-18 20:31:59,967 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:31:59,969 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:32:01,497 :INFO : TestLogger :Browser session started.
+2025-02-18 20:32:01,497 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:32:01,497 :INFO : TestLogger :Testing login with valid email and incorrect password.
+2025-02-18 20:32:04,523 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:32:05,910 :INFO : TestLogger :Entering password.
+2025-02-18 20:32:06,102 :INFO : TestLogger :Checking if the 'SIGN IN' button is enabled.
+2025-02-18 20:32:06,129 :WARNING : TestLogger :SIGN IN button is enabled, but it should be disabled.
+2025-02-18 20:32:06,519 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_valid_email_invalid_password_2025-02-18_20-32-06.png
+2025-02-18 20:32:06,519 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_valid_email_invalid_password_2025-02-18_20-32-06.png
+2025-02-18 20:32:08,757 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:32:08,761 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:32:10,314 :INFO : TestLogger :Browser session started.
+2025-02-18 20:32:10,314 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:32:10,314 :INFO : TestLogger :Testing login with valid email and empty password.
+2025-02-18 20:32:12,209 :INFO : TestLogger :Entering email: svibin@boostb2b.com
+2025-02-18 20:32:13,601 :INFO : TestLogger :Entering password.
+2025-02-18 20:32:13,716 :INFO : TestLogger :Checking if the 'SIGN IN' button is enabled.
+2025-02-18 20:32:13,742 :INFO : TestLogger :SIGN IN button is correctly disabled.
+2025-02-18 20:32:14,106 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_valid_email_empty_password_2025-02-18_20-32-13.png
+2025-02-18 20:32:14,106 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_valid_email_empty_password_2025-02-18_20-32-13.png
+2025-02-18 20:32:16,265 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:32:16,269 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:32:17,811 :INFO : TestLogger :Browser session started.
+2025-02-18 20:32:17,812 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:32:17,813 :INFO : TestLogger :Testing login with empty email and valid password.
+2025-02-18 20:32:20,491 :INFO : TestLogger :Entering email: 
+2025-02-18 20:32:21,706 :INFO : TestLogger :Entering password.
+2025-02-18 20:32:21,988 :INFO : TestLogger :Checking if the 'SIGN IN' button is enabled.
+2025-02-18 20:32:22,013 :WARNING : TestLogger :SIGN IN button is enabled, but it should be disabled.
+2025-02-18 20:32:22,420 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_empty_email_valid_password_2025-02-18_20-32-22.png
+2025-02-18 20:32:22,420 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_empty_email_valid_password_2025-02-18_20-32-22.png
+2025-02-18 20:32:24,578 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:32:24,581 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:32:58,433 :INFO : TestLogger :Browser session started.
+2025-02-18 20:32:58,433 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:32:58,433 :INFO : TestLogger :Testing login with special characters in email.
+2025-02-18 20:33:00,634 :INFO : TestLogger :Entering email: @$&*
+2025-02-18 20:33:01,889 :INFO : TestLogger :Entering password.
+2025-02-18 20:33:02,137 :INFO : TestLogger :Checking if the 'SIGN IN' button is enabled.
+2025-02-18 20:33:02,161 :INFO : TestLogger :SIGN IN button is correctly disabled.
+2025-02-18 20:33:02,515 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_special_characters_in_email_2025-02-18_20-33-02.png
+2025-02-18 20:33:02,515 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_special_characters_in_email_2025-02-18_20-33-02.png
+2025-02-18 20:33:04,846 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:33:04,846 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:33:06,360 :INFO : TestLogger :Browser session started.
+2025-02-18 20:33:06,360 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:33:06,360 :INFO : TestLogger :Testing the 'Forgot Password?' link functionality.
+2025-02-18 20:33:08,110 :INFO : TestLogger :Clicking the 'Forgot Password?' link.
+2025-02-18 20:33:09,333 :INFO : TestLogger :'Forgot Password?' link clicked successfully.
+2025-02-18 20:33:09,334 :INFO : TestLogger :Verifying password recovery page redirection.
+2025-02-18 20:33:09,364 :INFO : TestLogger :User is successfully redirected to the password recovery page.
+2025-02-18 20:33:09,759 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_forgot_password_page_2025-02-18_20-33-09.png
+2025-02-18 20:33:09,759 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_forgot_password_page_2025-02-18_20-33-09.png
+2025-02-18 20:33:11,942 :INFO : TestLogger :Browser session ended.
+2025-02-18 20:33:11,944 :INFO : TestLogger :Launching browser: chrome | Headless mode: False
+2025-02-18 20:33:13,467 :INFO : TestLogger :Browser session started.
+2025-02-18 20:33:13,467 :INFO : TestLogger :✅ Test data loaded for DEV environment: {'web_base_url': 'https://operations.dev.dynboost.com/', 'web_browser': 'chrome', 'credentials_valid_username': 'svibin@boostb2b.com', 'credentials_valid_password': 'Rootclient@123', 'credentials_invalid_username': 'svibin@boost.com', 'credentials_invalid_password': 'root@12', 'credentials_specialchar_email': '@$&*', 'pytest_addopts': "-vs --html-report=./report/dev --title='Development Test Report'"}
+2025-02-18 20:33:13,468 :INFO : TestLogger :Testing 'Back to Login screen' link functionality.
+2025-02-18 20:33:16,008 :INFO : TestLogger :Clicking the 'Forgot Password?' link.
+2025-02-18 20:33:17,222 :INFO : TestLogger :'Forgot Password?' link clicked successfully.
+2025-02-18 20:33:17,223 :INFO : TestLogger :Verifying password recovery page redirection.
+2025-02-18 20:33:17,255 :INFO : TestLogger :User is successfully redirected to the password recovery page.
+2025-02-18 20:33:17,256 :INFO : TestLogger :Clicking the 'Back to Login screen' link.
+2025-02-18 20:33:17,406 :INFO : TestLogger :'Back to Login screen' link clicked successfully.
+2025-02-18 20:33:17,406 :INFO : TestLogger :Verifying redirection back to the login page.
+2025-02-18 20:33:17,428 :INFO : TestLogger :User is successfully redirected back to the login page.
+2025-02-18 20:33:17,780 :INFO : TestLogger :✅ Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_back_to_login_screen_2025-02-18_20-33-17.png
+2025-02-18 20:33:17,780 :INFO : TestLogger :Screenshot saved: C:\Users\RAMESH SINGH\PycharmProjects\Boost Gen3 - dynamic QA\Screenshots\DEV\DEV_back_to_login_screen_2025-02-18_20-33-17.png
+2025-02-18 20:33:19,956 :INFO : TestLogger :Browser session ended.

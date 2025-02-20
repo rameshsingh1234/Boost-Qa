@@ -1,0 +1,53 @@
+stages:
+  - test
+
+stages:
+  - test
+
+pytest_tests:
+  stage: test
+  image: python:3.12
+  before_script:
+    - apt-get update && apt-get install -y wget unzip curl
+    - wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    - apt-get install -y ./google-chrome-stable_current_amd64.deb
+    - wget -q "https://chromedriver.storage.googleapis.com/96.0.4664.45/chromedriver_linux64.zip"
+    - unzip chromedriver_linux64.zip
+    - mv chromedriver /usr/local/bin/chromedriver
+    - chmod +x /usr/local/bin/chromedriver
+    - chromedriver --version
+    - python -m venv venv  # ✅ Create virtual environment
+    - source venv/bin/activate  # ✅ Activate virtual environment
+    - pip install --upgrade pip
+    - pip install -r requirements.txt
+  script:
+    - source venv/bin/activate  # ✅ Ensure venv is activated
+    - python main.py --env DEV --headless
+  artifacts:
+    paths:
+      - Reports/test_report.html
+    expire_in: 1 week
+
+
+
+
+
+
+#stages:
+#  - test
+#
+#pytest_tests:
+#  stage: test
+#  image: python:3.12
+#  before_script:
+#    - python -m venv venv
+#    - source venv/bin/activate
+#    - pip install --upgrade pip
+#    - pip install -r requirements.txt
+#  script:
+#    - source venv/bin/activate
+#    - python main.py --env DEV --headless
+#  artifacts:
+#    paths:
+#      - Reports/
+#    expire_in: 1 week
