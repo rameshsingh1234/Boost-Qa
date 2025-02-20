@@ -12,9 +12,9 @@ SCREENSHOT_DIR = os.path.join(os.getcwd(), "Screenshots", ENV)  # Store per envi
 ARCHIVE_DIR = os.path.join(SCREENSHOT_DIR, "archive")  # Archive folder
 
 
-# ✅ Archive old screenshots before running tests
+# ✅ Archive old Screenshots before running tests
 def archive_old_screenshots():
-    """Moves old screenshots to an archive folder before new test execution."""
+    """Moves old Screenshots to an archive folder before new test execution."""
     os.makedirs(ARCHIVE_DIR, exist_ok=True)  # Ensure archive directory exists
 
     for file in os.listdir(SCREENSHOT_DIR):

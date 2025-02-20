@@ -20,9 +20,9 @@ ENV = os.getenv("ENVIRONMENT", "DEV").upper()  # Default to DEV if not set
 @pytest.fixture(scope="session", autouse=True)
 def setup_screenshot_archive():
     """
-    ✅ Runs before any test execution to archive previous screenshots.
+    ✅ Runs before any test execution to archive previous Screenshots.
     """
-    logger.info("📂 Archiving old screenshots before test execution...")
+    logger.info("📂 Archiving old Screenshots before test execution...")
     archive_old_screenshots()
 
 

@@ -129,7 +129,7 @@ exit(exit_code)
 # if exit_code == 0:
 #     print(f"\n✅ Test execution completed successfully. Report generated in folder: {report_folder}")
 # else:
-#     print(f"\n❌ Test execution failed. Check logs for details. Report generated in folder: {report_folder}")
+#     print(f"\n❌ Test execution failed. Check Logs for details. Report generated in folder: {report_folder}")
 #
 # exit(exit_code)
 #
@@ -212,7 +212,7 @@ exit(exit_code)
 # if exit_code == 0:
 #     print(f"\n✅ Test execution completed successfully. Report generated in folder: {report_folder}")
 # else:
-#     print(f"\n❌ Test execution failed. Check logs for details. Report generated in folder: {report_folder}")
+#     print(f"\n❌ Test execution failed. Check Logs for details. Report generated in folder: {report_folder}")
 #
 # exit(exit_code)
 
