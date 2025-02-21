@@ -10,10 +10,12 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
 from Utilities.logger import logger  # Import centralized logger
 
+
 def pytest_addoption(parser):
     """ ✅ Add CLI options for environment and headless mode """
     parser.addoption("--env", action="store", default="DEV", help="Choose environment: DEV, UAT, PROD")
     parser.addoption("--headless", action="store_true", help="Run tests in headless mode")
+
 
 def pytest_configure(config):
     """ ✅ Ensure ENVIRONMENT is correctly set before anything imports logger.py """
@@ -21,8 +23,10 @@ def pytest_configure(config):
     os.environ["ENVIRONMENT"] = env.upper()  # ✅ Set it globally before imports
     print(f"🌍 Using environment: {os.environ['ENVIRONMENT']}")  # Debugging log
 
+
 # ✅ Load environment variables from .env file (if used)
 load_dotenv()
+
 
 @pytest.fixture(scope="function")
 def driver(request):
@@ -69,7 +73,6 @@ def driver(request):
     logger.info("Browser session ended.")
 
 #
-
 
 
 #
@@ -145,26 +148,6 @@ def driver(request):
 #     logger.info("Browser session ended.")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # import os
 # import pytest
 # from dotenv import load_dotenv
@@ -233,26 +216,6 @@ def driver(request):
 #
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # from Utilities.logger import logger
 # from dotenv import load_dotenv
 # import os
@@ -312,15 +275,6 @@ def driver(request):
 #
 #     driver.quit()
 #     logger.info("Browser session ended.")
-
-
-
-
-
-
-
-
-
 
 
 #
