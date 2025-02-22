@@ -166,7 +166,7 @@ def test_payment_displayed(login_and_navigate_to_internal, driver):
     internal_page.click_internal_batch()
     take_screenshot(driver, f"{ENV}_before_uploading_payment_batch")
     base_path = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(base_path, "../testdata/20250114-PNC.xlsx")
+    file_path = os.path.join(base_path, "../Testdata/20250114-PNC.xlsx")
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"❌ File not found: {file_path}")
     logger.info(f"🔍 Uploading file: {file_path}")

@@ -80,7 +80,7 @@ def extract_transactions(file_path, sheet_name="Transactions"):
 
 
 # File path (Update accordingly)
-file_path = "C:/Users/RAMESH SINGH/PycharmProjects/File_validation/Test_files/20250114-PNC_Original.xlsx"
+file_path = "C:/Users/Adithya G/formyself/Boost-Qa/Testdata/20250114-PNC.xlsx"
 
 processed_data = extract_transactions(file_path)
 

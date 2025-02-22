@@ -43,7 +43,7 @@ def extract_headers(file_path):
     return global_headers
 
 # Call function to populate global_headers
-file_path = "C:/Users/RAMESH SINGH/PycharmProjects/File_validation/Test_files/20250114-PNC_Original.xlsx"
+file_path = "C:/Users/Adithya G/formyself/Boost-Qa/Testdata/20250114-PNC.xlsx"
 extract_headers(file_path)
 
 # Print the extracted headers without extra quotes
