@@ -68,6 +68,7 @@ class InternalPage:
         self.discard_batch = '//*[@id="action_item_discard_batch"]'
         self.discard_button ='//*[@id="discard-batch"]/div[3]/div/div/div/button[2]'
         self.contact_production = '//*[@id="action_item_contact_production_support"]/p'
+        self.payment_record = '//*[@id="root"]/div[2]/div/div[2]/div[2]/div/div/div[1]/div[5]'
         # self.success_message = '//*[@id="successMessage"]'
 
     def click_dropdown(self):
@@ -396,3 +397,7 @@ class InternalPage:
 
     def click_contact_production(self):
         self.driver.find_element(By.XPATH, self.contact_production).click()
+
+
+    def click_payment_row(self):
+        self.driver.find_element(By.XPATH,self.payment_record).click()
